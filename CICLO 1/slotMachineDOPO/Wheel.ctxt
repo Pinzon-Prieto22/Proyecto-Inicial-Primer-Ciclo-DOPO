@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Wheel
+comment0.text=\r\n\ Clase\ de\ las\ ruedas\ de\ la\ SlotMAchine\r\n\ Las\ ruedas\ son\ un\ circulo\ que\ muestra\ simbolos\ (colors)\r\n\ Por\ defecto\ si\ no\ tiene\ un\ simbolo\ es\ de\ color\ gris\ claro\ y\ a\ nivel\ logico\ es\ null\ \r\n\ \r\n\ @author\ Bryan\ Pinz\u00F3n\ y\ Valentina\ Prieto\r\n\ @version\ Ciclo\ 1\r\n
+comment1.params=
+comment1.target=Wheel()
+comment1.text=\r\n\ Constructor\r\n\ Crea\ una\ rueda\ vacia\ sin\ simbolo\ asignado\ en\ una\ posicion\ por\ defecto\r\n\ que\ despues\ reposicionaremos\r\n
+comment2.params=x\ y
+comment2.target=void\ reposition(int,\ int)
+comment2.text=\r\n\ Metodo\ que\ ubica\ la\ rueda\ en\ una\ poscicion\ del\ canvas\r\n\ \r\n\ @param\ x\ que\ es\ un\ entero\ que\ es\ la\ posicion\ horizontal,\ en\ pixeles\r\n\ @param\ y\ que\ es\ un\ entero\ que\ es\ la\ posicion\ vertical,\ en\ pixeles\r\n
+comment3.params=colorName
+comment3.target=void\ setColor(java.lang.String)
+comment3.text=\r\n\ Metodo\ que\ cambia\ el\ color\ (simbolo)\ de\ la\ rueda\r\n\ \r\n\ @param\ colorName\ que\ es\ un\ String\ que\ es\ el\ nombre\ del\ color\ CSS\ a\ mostrar\ o\ puede\ \r\n\ ser\ null\ si\ la\ rueda\ debe\ quedar\ sin\ simbolo\r\n
+comment4.params=
+comment4.target=java.lang.String\ getColor()
+comment4.text=\r\n\ Metodo\ que\ nos\ dice\ el\ color\ (simbolo)\ actual\ de\ la\ rueda\r\n\ \r\n\ @return\ un\ String\ que\ es\ el\ nombre\ del\ color,\ o\ null\ si\ no\ tiene\ simbolo\r\n
+comment5.params=
+comment5.target=void\ show()
+comment5.text=\r\n\ Metodo\ que\ hace\ visible\ la\ rueda\ en\ el\ canvas\r\n
+comment6.params=
+comment6.target=void\ hide()
+comment6.text=\r\n\ Metodo\ que\ oculta\ la\ rueda\ del\ canvas\r\n
+numComments=7

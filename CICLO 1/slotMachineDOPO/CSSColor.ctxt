@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=CSSColor
+comment0.text=\r\n\ Clase\ de\ apoyo\ que\ valida\ nombres\ de\ colores\ CSS\ y\ los\ convierte\ a\ objetos\ \r\n\ java.awt.Color,\ para\ que\ Canvas\ pueda\ dibujar\ con\ cualquiera\ de\ esos\ colores\r\n\r\n\ @author\ Bryan\ Pinz\u00F3n\ y\ Valentina\ Prieto\r\n\ @version\ Ciclo\ 1\r\n
+comment1.params=nombre
+comment1.target=boolean\ esValido(java.lang.String)
+comment1.text=\r\n\ Valida\ que\ el\ nombre\ corresponde\ a\ un\ color\ CSS\r\n\ @param\ nombre\ que\ es\ el\ nombre\ del\ color\r\n\ @return\ true\ si\ el\ nombre\ es\ un\ color\ CSS\ valido\r\n
+comment2.params=nombre
+comment2.target=java.awt.Color\ toAwt(java.lang.String)
+comment2.text=\r\n\ Convierte\ el\ color\ CSS\ a\ un\ objeto\ color\ de\ AWT\r\n\ si\ el\ nombre\ no\ es\ valido,\ retorna\ Color.black\ por\ defecto\r\n\ @param\ nombre\ nombre\ del\ color\ CSS\r\n\ @return\ el\ color\ equivalente\ en\ AWT\r\n
+comment3.params=
+comment3.target=java.util.HashMap\ crearTabla()
+comment3.text=\r\n\ Metodo\ que\ crea\ la\ tabla\ con\ los\ nombres\ CSS\ y\ su\ codigo\ hexadecimal\r\n
+numComments=4
