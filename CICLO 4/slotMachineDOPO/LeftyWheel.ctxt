@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=LeftyWheel
+comment0.text=\r\n\ Clase\ que\ representa\ la\ rueda\ Lefty\ y\ hereda\ de\ wheel\r\n\ cumple\ con\:\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ -\ en\ vez\ de\ avanzar\ en\ el\ repertorio\ o\ escoger\ un\ simbolo\ al\ azar\ al\ girar,\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ copia\ el\ simbolo\ que\ tiene\ actualmente\ la\ rueda\ inmediatamente\ a\ su\ izquierda\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ Si\ no\ tiene\ ninguna\ rueda\ a\ su\ izquierda\ (esta\ en\ la\ posicion\ 1),\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ gira\ como\ una\ rueda\ normal(mejor\ esfuerzo)\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ -\ Para\ identificarla\ tiene\ una\ marca\ triangular\ magenta\r\n\r\n\ @author\ Bryan\ Pinz\u00F3n\ y\ Valentina\ Prieto\r\n\ @version\ Ciclo\ 4\r\n
+comment1.params=
+comment1.target=LeftyWheel()
+comment1.text=\r\n\ Constructor\r\n\ Crea\ una\ rueda\ lefty,\ con\ su\ marquita\ magenta\r\n
+comment2.params=x\ y
+comment2.target=void\ reposition(int,\ int)
+comment2.text=\r\n\ Metodo\ que\ ubica\ la\ rueba\ y\ su\ distintivo\r\n
+comment3.params=
+comment3.target=void\ show()
+comment3.text=\r\n\ Metodo\ que\ muestra\ la\ rueda\r\n
+comment4.params=
+comment4.target=void\ hide()
+comment4.text=\r\n\ Metodo\ que\ oculta\ la\ rueda\r\n
+comment5.params=repertorio\ direccion\ izquierda
+comment5.target=Symbol\ siguienteSimbolo(java.util.ArrayList,\ int,\ Wheel)
+comment5.text=\r\n\ Metodo\ que\ calcula\ su\ siguiente\ simbolo\r\n
+comment6.params=repertorio\ azar\ izquierda
+comment6.target=Symbol\ simboloAlAzar(java.util.ArrayList,\ java.util.Random,\ Wheel)
+comment6.text=\r\n\ Metodo\ que\ da\ un\ simbolo\ al\ azar\r\n
+numComments=7

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=SlotMachineContestTestC3
+comment0.text=\r\n\ Pruebas\ de\ unidad\ de\ SlotMachineContest\ (ciclo\ 3)\ \r\n\r\n\ @author\ Bryan\ Pinz\u00F3n\ y\ Valentina\ Prieto\r\n\ @version\ Ciclo\ 3\r\n
+comment1.params=
+comment1.target=void\ solveShouldStayWithinTheActionBudget()
+comment2.params=
+comment2.target=void\ solveShouldReturnActionsWithTwoElementsEach()
+comment3.params=
+comment3.target=void\ solveShouldOnlyReferenceValidWheelPositions()
+comment4.params=
+comment4.target=void\ solveShouldNotIncludeActionsThatDoNotRotateAnything()
+comment5.params=
+comment5.target=void\ solveShouldSolveTheSmallestMachine()
+comment6.params=
+comment6.target=void\ solveShouldSolveTheLargestMachine()
+numComments=7

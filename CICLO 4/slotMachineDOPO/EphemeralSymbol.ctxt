@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=EphemeralSymbol
+comment0.text=\r\n\ Clase\ que\ representa\ al\ simbolo\ Ephemeral\ y\ hereda\ de\ Symbol\r\n\ cumple\ con\:\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ -\ cada\ vez\ que\ queda\ asignado\ a\ una\ rueda\ su\ tama\u00F1o\ se\ va\ encogiendo,\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ hasta\ quedar\ como\ un\ punto\ Una\ vez\ llega\ al\ tama\u00F1o\ minimo,\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ se\ queda\ asi\ (no\ sigue\ encogiendo)\r\n\r\n\ @author\ Bryan\ Pinz\u00F3n\ y\ Valentina\ Prieto\r\n\ @version\ Ciclo\ 4\r\n
+comment1.params=color
+comment1.target=EphemeralSymbol(java.lang.String)
+comment1.text=\r\n\ Constructor\r\n\ Crea\ un\ simbolo\ ephemeral\ con\ el\ color\ dado,\ en\ su\ tama\u00F1o\ inicial\r\n\r\n\ @param\ color\ que\ es\ un\ String\ que\ es\ el\ color\ CSS\ de\ este\ simbolo\r\n
+comment2.params=rueda
+comment2.target=void\ alSerMostrado(Wheel)
+comment2.text=\r\n\ Metodo\ que\ asigna\ el\ simbolo\ a\ la\ wheel\r\n
+numComments=3

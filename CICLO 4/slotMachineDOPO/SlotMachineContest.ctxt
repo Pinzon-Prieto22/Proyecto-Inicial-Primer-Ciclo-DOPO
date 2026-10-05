@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=SlotMachineContest
+comment0.text=\r\n\ Clase\ que\ resuelve\ el\ problema\ de\ la\ maraton\ "Slot\ Machine"\ \r\n\ usando\ de\ SlotMachine\ SOLO\:\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ -\ SlotMachine(n)\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ -\ Spin(wheel,steps)\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ -\ DistinctSymbols()\ \ \r\n\ En\ el\ problema\ real,\ nunca\ vemos\ los\ colores,\ solo\ sabemos\ cuantos\r\n\ distintos\ hay\ actualmente\ en\ la\ maquina\r\n\ \r\n\ La\ idea\ de\ nuetsra\ solucion\ es\ usar\ la\ primera\ rueda\ como\ referencia\ para\ \r\n\ alinear\ las\ demas\ a\ esta.\ De\ modo\ que\ para\ cada\ rueda\ desde\ la\ segunda\ hasta\ n\r\n\ encontramos\ el\ numero\ exacto\ de\ pasos\ que\ la\ alinearian\ con\ la\ primera\ rueda\r\n\ Camos\ girando\ la\ primera\ rueda\ por\ ciclos\ completos\ y\ apoyandonos\ de\ distinctSymbols\ vamos\r\n\ encontrando\ el\ valor\ minimo\ para\ encontrar\ la\ configuracion\ ganadora\r\n\ Agregamos\ un\ corte\:\ si\ mientras\ escaneamos\ la\ rueda\ 1\r\n\ la\ maquina\ ya\ queda\ en\ jackpot\ (por\ ejemplo\ porque\ la\ ultima\ correccion\r\n\ dejo\ todo\ alineado\ de\ una\ vez),\ se\ lanza\ una\ excepcion\ para\ no\ seguir\r\n\ haciendo\ mas\ acciones\ de\ las\ necesarias\r\n\r\n\ @author\ Bryan\ Pinz\u00F3n\ y\ Valentina\ Prieto\r\n\ @version\ Ciclo\ 4\r\n
+comment1.params=n
+comment1.target=int[][]\ solve(int)
+comment1.text=\r\n\ Metodo\ que\ resuelve\ el\ problema\ de\ la\ maraton\ para\ una\ maquina\ de\r\n\ n\ ruedas\ y\ n\ simbolos,\ inicializada\ aleatoriamente\r\n\ La\ maquina\ es\ invisible\ durante\ todo\ el\ proceso\r\n\r\n\ @param\ n\ que\ es\ un\ entero\ que\ es\ el\ numero\ de\ ruedas\ (y\ de\ simbolos)\ de\ la\ maquina\r\n\ @return\ un\ arreglo\ de\ acciones\ {i,j}\:\ la\ posicion\ de\ la\ rueda\ girada\ y\ los\ pasos\ girados\r\n
+comment2.params=n
+comment2.target=void\ simulate(int)
+comment2.text=\r\n\ Metodo\ que\ resuelve\ el\ problema\ de\ la\ maraton\ para\ una\ maquina\ de\r\n\ n\ ruedas\ y\ n\ simbolos,\ y\ despues\ simula\ visualmente\ esas\ mismas\ acciones\r\n\ sobre\ una\ maquina\ visible,\ para\ poder\ verla\ ganar\ en\ vivo\ \r\n\ La\ maquina\ visible\ nunca\ resuelve\ nada\ por\ su\ cuenta\ esta\ solo\ reproduce\r\n\ los\ movimientos\ que\ ya\ se\ calcularon\ \r\n\r\n\ @param\ n\ que\ es\ un\ entero\ que\ es\ el\ numero\ de\ ruedas\ (y\ de\ simbolos)\ de\ la\ maquina\r\n
+comment3.params=n\ semilla
+comment3.target=int[][]\ resolverConSemilla(int,\ long)
+comment3.text=\r\n\ Metodo\ privado\ que\ crea\ una\ maquina\ invisible\ con\ la\ semilla\ dada,\r\n\ la\ resuelve,\ y\ devuelve\ el\ arreglo\ de\ acciones\ que\ le\ tomo\ lograrlo\r\n
+comment4.params=arreglo
+comment4.target=java.util.List\ minimos(int[])
+comment4.text=\r\n\ Metodo\ privado\ que\ nos\ da\ las\ posiciones\ donde\ el\ arreglo\ alcanza\r\n\ su\ valor\ minimo\r\n
+numComments=5

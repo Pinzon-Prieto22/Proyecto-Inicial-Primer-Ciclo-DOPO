@@ -1,0 +1,31 @@
+#BlueJ class context
+comment0.target=Triangle
+comment0.text=\r\n\ Clase\ que\ representa\ el\ triangulo,\ nosotros\ solo\ hicimos\ la\ herencia\ de\ figura\r\n\ y\ lo\ que\ habiamos\ hecho\ del\ lab\ 1\ cuando\ modificamos\ shapes\r\n\ \r\n\ A\ triangle\ that\ can\ be\ manipulated\ and\ that\ draws\ itself\ on\ a\ canvas.\r\n\ \r\n\ @author\ \ Michael\ Kolling\ and\ David\ J.\ Barnes\r\n\ @version\ 1.0\ \ (15\ July\ 2000)\r\n
+comment1.params=
+comment1.target=Triangle()
+comment1.text=\r\n\ Create\ a\ new\ triangle\ at\ default\ position\ with\ default\ color.\r\n
+comment2.params=alto\ ancho\ colorNuevo
+comment2.target=Triangle(int,\ int,\ java.lang.String)
+comment2.text=\r\n\ Constructor\ 2\ del\ triangulo\ que\ pide\ sus\ medidas\ y\ color\r\n\ @param\ entero\ alto\r\n\ @param\ entero\ ancho\r\n\ @param\ string\ color\r\n\ @author\ Bryan\ Pinz\u00F3n\ -\ Valentina\ Prieto\r\n\ @version\ Lab1\ DOPO\r\n
+comment3.params=
+comment3.target=double\ area()
+comment3.text=\r\n\ Calcula\ el\ area\ del\ triangulo\r\n\ @author\ Bryan\ Pinz\u00F3n\ -\ Valentina\ Prieto\r\n\ @version\ Lab1\ DOPO\r\n
+comment4.params=
+comment4.target=void\ equilateral()
+comment4.text=\r\n\ Considerando\ el\ area\ del\ triangulo\r\n\ Lo\ convertimos\ en\ un\ triangulo\ equilatero\ con\ un\ area\r\n\ aproximadamente\ igual\r\n\ Calculo\ del\ lado\:\r\n\ raiz\ cuadrada\ de\ (4*area\ /\ raiz\ cuadrada\ de\ (3))\r\n\ Calculo\ de\ la\ altura\:\r\n\ (lado\ *\ raiz\ cuadrada\ de\ (3))\ /\ 2\r\n\ @author\ Bryan\ Pinz\u00F3n\ -\ Valentina\ Prieto\r\n\ @version\ Lab1\ DOPO\r\n
+comment5.params=times
+comment5.target=void\ walk(int)
+comment5.text=\r\n\ Mueve\ el\ triangulo\ hacia\ izquierda(negativo)\ o\ derecha(positivo)\ y\ va\ cayendo\r\n\ @param\ entra\ un\ entero\ que\ da\ la\ direccion\ del\ movimiento\r\n\ @author\ Bryan\ Pinz\u00F3n\ -\ Valentina\ Prieto\r\n\ @version\ Lab1\ DOPO\r\n
+comment6.params=ladoCuadrado
+comment6.target=void\ sigueCuadrado(int)
+comment6.text=\r\n\ Mueve\ el\ triangulo\ por\ el\ perimetro\ de\ un\ cuadrado\ dad\ la\ \r\n\ longitud\ del\ lado\ del\ cuadrado\r\n\ @param\ entero\ lado\ del\ cuadrado\r\n\ @author\ Bryan\ Pinz\u00F3n\ -\ Valentina\ Prieto\r\n\ @version\ Lab1\ DOPO\r\n
+comment7.params=newHeight\ newWidth
+comment7.target=void\ changeSize(int,\ int)
+comment7.text=\r\n\ Change\ the\ size\ to\ the\ new\ size\r\n\ @param\ newHeight\ the\ new\ height\ in\ pixels.\ newHeight\ must\ be\ >\=0.\r\n\ @param\ newWidht\ the\ new\ width\ in\ pixels.\ newWidht\ must\ be\ >\=0.\r\n
+comment8.params=
+comment8.target=void\ draw()
+comment8.text=\r\n\ Draw\ the\ triangle\ with\ current\ specifications\ on\ screen.\r\n
+comment9.params=
+comment9.target=void\ erase()
+comment9.text=\r\n\ Erase\ the\ triangle\ on\ screen.\r\n
+numComments=10

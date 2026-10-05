@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=CrazyWheel
+comment0.text=\r\n\ Clase\ que\ representa\ la\ rueda\ crazy\ dise\u00F1ada\ por\ nosotros\ y\ hereda\ de\ wheel\r\n\ cumple\ con\:\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ -\ funciona\ exactamente\ como\ una\ rueda\ normal\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ -\ no\ se\ alinea\ con\ las\ demas\ en\ la\ fila\:\ se\ ubica\ en\ un\ lugar\ al\ azar\ dentro\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ del\ cuerpo\ de\ la\ maquina\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ -\ Esa\ posicion\ se\ escoge\ una\ sola\ vez\ (al\ inicio)\ despues\ se\ queda\ quieta\ ahi\r\n\r\n\ @author\ Bryan\ Pinz\u00F3n\ y\ Valentina\ Prieto\r\n\ @version\ Ciclo\ 4\r\n
+comment1.params=
+comment1.target=CrazyWheel()
+comment1.text=\r\n\ Constructor\r\n\ Crea\ una\ rueda\ crazy\r\n
+comment2.params=
+comment2.target=boolean\ respetaLayout()
+comment2.text=\r\n\ MEtodo\ que\ nos\ dice\ si\ va\ en\ la\ disposicion\ no\ no\ \r\n\ Esta\ rueda\ no\ respeta\ la\ disposicion\r\n
+comment3.params=xMin\ xMax\ yMin\ yMax\ azar
+comment3.target=void\ reposicionEspecial(int,\ int,\ int,\ int,\ java.util.Random)
+comment3.text=\r\n\ Metodo\ que\ hace\ la\ reposicion\ especial\ de\ esta\ rueda\r\n
+numComments=4

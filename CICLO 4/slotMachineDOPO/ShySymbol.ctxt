@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=ShySymbol
+comment0.text=\r\n\ Clase\ que\ representa\ al\ simbolo\ Shy\ y\ hereda\ de\ Symbol\r\n\ cumple\ con\:\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ -\ cada\ vez\ que\ queda\ asignado\ a\ una\ rueda,\ alterna\ su\ estado\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ entre\ visible\ e\ invisible.\ Logicamente\ la\ rueda\ sigue\ mostrando\ este\ simbolo\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ lo\ unico\ que\ cambia\ es\ si\ su\ circulo\ se\ dibuja\ o\ no\ en\ el\ canvas\r\n\r\n\ @author\ Bryan\ Pinz\u00F3n\ y\ Valentina\ Prieto\r\n\ @version\ Ciclo\ 4\r\n
+comment1.params=color
+comment1.target=ShySymbol(java.lang.String)
+comment1.text=\r\n\ Constructor\r\n\ Crea\ un\ simbolo\ shy\ con\ el\ color\ dado,\ empezando\ visible\r\n\r\n\ @param\ color\ que\ es\ un\ String\ que\ es\ el\ color\ CSS\ de\ este\ simbolo\r\n
+numComments=2

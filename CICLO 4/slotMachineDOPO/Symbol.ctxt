@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Symbol
+comment0.text=\r\n\ Clase\ que\ representa\ el\ simbolo\ (color)\ del\ repertorio\ de\ la\ maquina\r\n\ \r\n\ Un\ simbolo\ normal\ que\ no\ tiene\ ningun\ comportamiento\ especial\ \r\n\ De\ esta\ clase\ heredan\ los\ tipos\ especiales\:\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ -\ EphemeralSymbol\ que\ se\ va\ encogiendo\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ -\ ShySymbol,\ que\ aparece\ y\ desaparece\r\n\r\n\ @author\ Bryan\ Pinz\u00F3n\ y\ Valentina\ Prieto\r\n\ @version\ Ciclo\ 4\r\n
+comment1.params=color
+comment1.target=Symbol(java.lang.String)
+comment1.text=\r\n\ Constructor\r\n\ Crea\ un\ simbolo\ normal\ con\ el\ color\ dado\r\n\r\n\ @param\ color\ que\ es\ un\ String\ que\ es\ el\ color\ del\ simbolo\r\n
+comment2.params=
+comment2.target=java.lang.String\ getColor()
+comment2.text=\r\n\ Metodo\ que\ nos\ dice\ el\ color\ del\ simbolo\r\n\r\n\ @return\ un\ String\ que\ es\ el\ color\ del\ simbolo\r\n
+numComments=3
